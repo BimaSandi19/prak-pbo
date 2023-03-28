@@ -33,10 +33,10 @@ class PSU(Komputer):
         self.daya = daya
 
 #pendefinisian
-p1 = Processor('Intel','Core i7 7740X',4350000,4,'4.3GHz')
-p2 = Processor('AMD','Ryzen 5 3600',250000,4,'4.3GHz')
+p1 = Processor('Intel','Core i5 12500H',4350000,4,'4.1GHz')
+p2 = Processor('AMD','Ryzen 7 7600',250000,4,'4.2GHz')
 ram1 = RAM('V-Gen','DDR4 SODimm PC19200/2400MHz',328000,'4GB')
-ram2 = RAM('G.SKILL','DDR4 2400MHz',328000,'4GB')
+ram2 = RAM('V-Gen','DDR4 2400MHz',328000,'4GB')
 hdd1 = HDD('Seagate','HDD 2.5 inch',295000,'500GB',7200)
 hdd2 = HDD('Seagate','HDD 2.5 inch',295000,'1000GB',7200)
 vga1 = VGA('Asus','VGA GTX 1050',250000,'2GB')
